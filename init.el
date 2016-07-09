@@ -6,22 +6,18 @@
 (add-to-list 'load-path "~/.emacs.d/plugins")
 
 ;; User interface
-(require 'init-environment)
-(require 'init-fonts)
+(require 'init-environment)     ;; UI setting
+(require 'init-fonts)           ;; font setting
 (require 'init-sr-speedbar)     ;; file manager 
-(require 'init-undo-tree)
-(require 'init-my-function)
-(require 'init-key-bindings)
+(require 'init-undo-tree)       ;; undo/redo
+(require 'init-my-function)     ;; custom functions
+(require 'init-key-bindings)    ;; custom keybinds
 (require 'init-bs)              ;; buffer show
 (require 'init-linum)           ;; line number
-(require 'init-easypg)
+(require 'init-easypg)          ;; encryption-decryption
 
-;;----------------------------------------------------------------------------
-;; MELPA
-(require 'package)
-(add-to-list 'package-archives
-             '("melpa" . "https://melpa.org/packages/") t)
-(package-initialize)
+;; Packages
+(require 'init-elpa)            ;; package manager
 
 ;; auto-complete (MELPA)
 (require 'auto-complete)
