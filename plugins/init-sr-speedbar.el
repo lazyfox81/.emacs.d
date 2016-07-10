@@ -1,11 +1,13 @@
-;; init-sp-speedbar.el
+;; init-sr-speedbar.el
 ;;--------------------
-(require 'sr-speedbar)
-(setq speedbar-use-images nil)
-(setq speedbar-show-unknown-files t)
-(setq sr-speedbar-right-side nil)
 
-(speedbar-add-supported-extension ".sh")
+(use-package sr-speedbar
+  :ensure t
+  :config
+  (setq speedbar-use-images nil)
+  (setq speedbar-show-unknown-files t)
+  (setq sr-speedbar-right-side nil)
+  (speedbar-add-supported-extension ".sh"))
 
 (global-set-key (kbd "<f12>") 'sr-speedbar-toggle)
 

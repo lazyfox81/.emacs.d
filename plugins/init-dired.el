@@ -14,4 +14,4 @@
 (define-key dired-mode-map (kbd "^")
   (lambda () (interactive) (find-alternate-file "..")))  ;; was dired-up-directory
 
-(provide 'init-dired.el)
+(provide 'init-dired)
