@@ -6,6 +6,8 @@
   :config
   (setq speedbar-use-images nil)
   (setq speedbar-show-unknown-files t)
+  (setq speedbar-directory-unshown-regexp
+	"^\\(CVS\\|RCS\\|SCCS\\|\\.\\.*$\\)\\'")
   (setq sr-speedbar-right-side nil)
   (speedbar-add-supported-extension ".sh"))
 
