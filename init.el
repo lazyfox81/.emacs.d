@@ -13,6 +13,10 @@
 (require 'init-my-function)     ;; custom functions
 (require 'init-key-bindings)    ;; custom keybinds
 (require 'init-bs)              ;; buffer show
+
+(require 'init-themes)          ;; color theme
+(load-theme 'spolsky t)
+
 (require 'init-linum)           ;; line number
 (require 'init-sr-speedbar)     ;; file manager 
 
@@ -23,8 +27,5 @@
 (require 'init-files)           ;; Associate file types
 ;; (require 'init-dired)           ;; Dired
 
-;; Color theme
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'gruvbox t)
 
 (provide 'init)

@@ -1,5 +1,6 @@
 ;; init-fonts.el
-;;----------------------------------------------------------------------------
+;;---------------
+
 ;; Set a default font
 (when (member "Anonymous Pro for Powerline" (font-family-list))
   (add-to-list 'initial-frame-alist '(font . "Anonymous Pro for Powerline-12"))
