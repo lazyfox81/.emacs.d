@@ -241,7 +241,6 @@ When there is a text selection, act on the region."
 
       (put this-command 'stateIsCompact-p (if currentStateIsCompact nil t)) ) ) )
 
-(provide 'init-my-function)
 ;;----------------------------------------------------------------------------
 (defun xah-toggle-letter-case ()
   "Toggle the letter case of current word or text selection.
@@ -274,8 +273,5 @@ Version 2016-01-08"
       (downcase-region ξp1 ξp2)
       (put this-command 'state 0)))))
 ;;----------------------------------------------------------------------------
-(defun sudo-save ()
-  (interactive)
-  (if (not buffer-file-name)
-      (write-file (concat "/sudo:root@localhost:" (ido-read-file-name "File:")))
-    (write-file (concat "/sudo:root@localhost:" buffer-file-name))))
+(provide 'init-my-function)
+;; End of init-my-function.el

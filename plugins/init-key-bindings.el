@@ -4,16 +4,12 @@
 ;;----------------------------------------------------------------------------
 (global-unset-key (kbd "<menu>"))
 
-;; (global-set-key (kbd "<f1>") 'kmacro-start-macro)
-;; (global-set-key (kbd "<f2>") 'kmacro-end-macro)
-;; (global-set-key (kbd "<f3>") 'kmacro-call-macro)
-;; (global-set-key (kbd "<f4>") 'dired)
+(global-set-key (kbd "<f2>") 'bs-show)
 ;; F3	Start recording macro
 ;; F4	Stop recording macro
 ;; F4	Play back macro once
-
 (global-set-key (kbd "<f5>") 'bookmark-bmenu-list)
-(global-set-key (kbd "<f2>") 'bs-show)
+(global-set-key (kbd "<f6>") 'ffap)
 (global-set-key (kbd "<f7>") 'recentf-open-files)
 (global-set-key (kbd "<f12>") 'sr-speedbar-toggle)
 (global-set-key (kbd "C-q") 'kill-emacs)
