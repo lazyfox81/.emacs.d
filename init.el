@@ -28,7 +28,8 @@
 (require 'init-markdown)        ;; markdown-mode 
 (require 'init-easypg)          ;; encryption-decryption
 (require 'init-files)           ;; Associate file types
-;; (require 'init-dired)           ;; Dired
+(require 'init-dired)           ;; Dired
 
 
 (provide 'init)
+(put 'dired-find-alternate-file 'disabled nil)
