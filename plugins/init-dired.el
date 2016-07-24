@@ -3,6 +3,7 @@
 
 ;; dired
 (require 'dired)
+
 ;; allow dired to delete or copy dir
 (setq dired-recursive-copies (quote always))    ;; “always” means no asking
 (setq dired-recursive-deletes (quote always))   ;; “top” means ask once
