@@ -46,6 +46,7 @@
 
 ;; easy keys for split windows
 (global-set-key (kbd "M-3") 'delete-other-windows)
+(global-set-key (kbd "<menu> 3") 'delete-other-windows)
 (global-set-key (kbd "M-2") 'delete-window)
 (global-set-key (kbd "M-4") 'split-window-below)
 (global-set-key (kbd "M-$") 'split-window-right)
@@ -85,6 +86,7 @@
 
 ;; execute
 (global-set-key (kbd "M-a") 'execute-extended-command)
+(global-set-key (kbd "<menu> a") 'execute-extended-command)
 
 ;; switch to buffers
 (global-set-key (kbd "<menu> t") 'switch-to-buffer)
