@@ -51,7 +51,8 @@
 (global-set-key (kbd "M-$") 'split-window-right)
 (global-set-key (kbd "<menu> 4") 'split-window-right)
 (global-set-key (kbd "M-s") 'other-window)
-
+(global-set-key (kbd "<menu> s") 'other-window)
+(global-set-key (kbd "<f8>") 'other-window)
 ;; copy, paste, undo
 (global-set-key (kbd "M-c") 'xah-copy-line-or-region)
 (global-set-key (kbd "M-C") 'copy-rectangle-as-kill)

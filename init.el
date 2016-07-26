@@ -30,6 +30,8 @@
 (require 'init-files)           ;; Associate file types
 (require 'init-dired)           ;; Dired
 
+;; Terminal
+;; (require 'init-terminal)        ;; Terminal emulator setting
 
 (provide 'init)
 (put 'dired-find-alternate-file 'disabled nil)
