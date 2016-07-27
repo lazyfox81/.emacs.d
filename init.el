@@ -31,7 +31,7 @@
 (require 'init-dired)           ;; Dired
 
 ;; Terminal
-;; (require 'init-terminal)        ;; Terminal emulator setting
+(require 'init-terminal)        ;; Terminal emulator setting
 
 (provide 'init)
 (put 'dired-find-alternate-file 'disabled nil)
