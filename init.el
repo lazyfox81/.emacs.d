@@ -17,7 +17,8 @@
 (require 'init-bs)              ;; buffer show
 
 (require 'init-themes)          ;; color theme
-(load-theme 'spolsky t)
+(load-theme 'navi-and-ivory t)
+;; (load-theme 'spolsky t)
 ;; (load-theme 'gruvbox t)
 
 (require 'init-linum)           ;; line number
