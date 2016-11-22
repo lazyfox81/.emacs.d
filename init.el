@@ -17,7 +17,7 @@
 (require 'init-bs)              ;; buffer show
 
 (require 'init-themes)          ;; color theme
-(load-theme 'navi-and-ivory t)
+(load-theme 'japanesque t)
 ;; (load-theme 'spolsky t)
 ;; (load-theme 'gruvbox t)
 
