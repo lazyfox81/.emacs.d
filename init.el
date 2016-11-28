@@ -17,9 +17,6 @@
 (require 'init-bs)              ;; buffer show
 
 (require 'init-themes)          ;; color theme
-(load-theme 'japanesque t)
-;; (load-theme 'spolsky t)
-;; (load-theme 'gruvbox t)
 
 (require 'init-linum)           ;; line number
 (require 'init-sr-speedbar)     ;; file manager 
@@ -30,6 +27,8 @@
 (require 'init-easypg)          ;; encryption-decryption
 (require 'init-files)           ;; Associate file types
 (require 'init-dired)           ;; Dired
+(require 'init-python)          ;; Python
+(require 'init-fci)             ;; Fill-column indicator
 
 ;; Terminal
 (require 'init-terminal)        ;; Terminal emulator setting
