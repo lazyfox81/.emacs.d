@@ -3,6 +3,9 @@
 ;; ---------------------------
 
 ;; Autocomplete for Python
+;; sudo pip install virtualenv
+;; sudo pip install jedy
+
 (use-package jedi
     :ensure t) 
 
