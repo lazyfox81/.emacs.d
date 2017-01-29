@@ -66,7 +66,7 @@
 (global-set-key (kbd "C-y") 'redo)
 
 (global-set-key (kbd "C-c") 'xah-copy-line-or-region)
-(global-set-key (kbd "C-x") 'xah-cut-line-or-region)
+;; (global-set-key (kbd "C-x") 'xah-cut-line-or-region)
 (global-set-key (kbd "C-v") 'yank)
 
 ;; selection
