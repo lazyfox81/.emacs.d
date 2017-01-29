@@ -54,6 +54,7 @@
 (global-set-key (kbd "M-s") 'other-window)
 (global-set-key (kbd "<menu> s") 'other-window)
 (global-set-key (kbd "<f8>") 'other-window)
+
 ;; copy, paste, undo
 (global-set-key (kbd "M-c") 'xah-copy-line-or-region)
 (global-set-key (kbd "M-C") 'copy-rectangle-as-kill)
@@ -63,6 +64,10 @@
 (global-set-key (kbd "M-V") 'yank-rectangle)
 (global-set-key (kbd "C-z") 'undo)
 (global-set-key (kbd "C-y") 'redo)
+
+(global-set-key (kbd "C-c") 'xah-copy-line-or-region)
+(global-set-key (kbd "C-x") 'xah-cut-line-or-region)
+(global-set-key (kbd "C-v") 'yank)
 
 ;; selection
 (global-set-key (kbd "M-SPC") 'set-mark-command)

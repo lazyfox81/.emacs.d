@@ -11,7 +11,6 @@
 (require 'init-fonts)           ;; font setting
 (require 'init-undo-tree)       ;; undo/redo
 (require 'init-my-function)     ;; custom functions
-(require 'init-cua)             ;; disable cua-mode
 (require 'init-sudo-save)       ;; save as root
 (require 'init-key-bindings)    ;; custom keybinds
 (require 'init-browser)         ;; web setting
