@@ -42,5 +42,5 @@
    `(term-color-cyan    ((t (:foreground,  *color6* :background,  *color6*))))
    `(term-color-white   ((t (:foreground,  *color7* :background,  *color7*))))))
 
-(provide 'init-themes)
+(provide 'init-theme)
 ;;--------------------------------------------------------------------

@@ -17,7 +17,7 @@
 (require 'init-browser)         ;; web setting
 (require 'init-bs)              ;; buffer show
 
-(require 'init-themes)          ;; color theme
+(require 'init-theme)           ;; color theme
 
 (require 'init-linum)           ;; line number
 (require 'init-sr-speedbar)     ;; file manager 
