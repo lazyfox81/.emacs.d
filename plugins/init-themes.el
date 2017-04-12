@@ -16,20 +16,31 @@
 (load-theme 'spolsky t)
 ;; (load-theme 'xresources t)
 
-(custom-set-faces
- '(default            ((t (:background  "#282828"))))
- '(fringe             ((t (:background  "#282828"))))
- '(vertical-border    ((t (:foreground  "#282828"))))
+(let ((*background*         "#282828")
+      (*foreground*         "#cccccc")
+      (*color0*             "#454945")
+      (*color1*             "#bf5b75")
+      (*color2*             "#9dc26d")
+      (*color3*             "#e1c236")
+      (*color4*             "#7ca8dc")
+      (*color5*             "#ad94cf")
+      (*color6*             "#70a8bb")
+      (*color7*             "#fbfbf8"))
+
+  (custom-set-faces
+   `(default            ((t (:background,  *background*))))
+   `(fringe             ((t (:background,  *background*))))
+   `(vertical-border    ((t (:background,  *background*))))
 
    ;; terminal
- '(term-color-black   ((t (:foreground  "#454945" :background  "#454945"))))
- '(term-color-red     ((t (:foreground  "#bf5b75" :background  "#bf5b75"))))
- '(term-color-green   ((t (:foreground  "#9dc26d" :background  "#9dc26d"))))
- '(term-color-yellow  ((t (:foreground  "#e1c236" :background  "#e1c236"))))
- '(term-color-blue    ((t (:foreground  "#7ca8dc" :background  "#7ca8dc"))))
- '(term-color-magenta ((t (:foreground  "#ad94cf" :background  "#ad94cf")))) 
- '(term-color-cyan    ((t (:foreground  "#70a8bb" :background  "#70a8bb"))))
- '(term-color-white   ((t (:foreground  "#fbfbf8" :background  "#fbfbf8")))))
+   `(term-color-black   ((t (:foreground,  *color0* :background,  *color0*))))
+   `(term-color-red     ((t (:foreground,  *color1* :background,  *color1*))))
+   `(term-color-green   ((t (:foreground,  *color2* :background,  *color2*))))
+   `(term-color-yellow  ((t (:foreground,  *color3* :background,  *color3*))))
+   `(term-color-blue    ((t (:foreground,  *color4* :background,  *color4*))))
+   `(term-color-magenta ((t (:foreground,  *color5* :background,  *color5*)))) 
+   `(term-color-cyan    ((t (:foreground,  *color6* :background,  *color6*))))
+   `(term-color-white   ((t (:foreground,  *color7* :background,  *color7*))))))
 
 (provide 'init-themes)
 ;;--------------------------------------------------------------------
