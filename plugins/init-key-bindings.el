@@ -99,4 +99,8 @@
 ;; change font size
 (global-set-key (kbd "C-=") 'text-scale-increase)
 (global-set-key (kbd "C--") 'text-scale-decrease)
+
+;; terminal
+(global-set-key (kbd "M-RET") 'ansi-term)
+
 (provide 'init-key-bindings)
