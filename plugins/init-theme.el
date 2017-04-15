@@ -30,7 +30,7 @@
   (custom-set-faces
    `(default            ((t (:background,  *background*))))
    `(fringe             ((t (:background,  *background*))))
-   `(vertical-border    ((t (:background,  *background*))))
+   `(vertical-border    ((t (:foreground,  *color0* :background,  *background*))))
 
    ;; terminal
    `(term-color-black   ((t (:foreground,  *color0* :background,  *color0*))))
