@@ -14,7 +14,6 @@
 (require 'init-cua)             ;; disable cua-mode
 (require 'init-sudo-save)       ;; save as root
 (require 'init-key-bindings)    ;; custom keybinds
-(require 'init-browser)         ;; web setting
 (require 'init-bs)              ;; buffer show
 
 (require 'init-theme)           ;; color theme
@@ -33,6 +32,9 @@
 
 ;; Terminal
 (require 'init-terminal)        ;; Terminal emulator setting
+
+;; Web
+(require 'init-browser)         ;; web setting
 
 (provide 'init)
 (put 'dired-find-alternate-file 'disabled nil)

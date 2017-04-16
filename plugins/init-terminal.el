@@ -23,4 +23,7 @@
 ;; add to hook
 (add-hook 'term-mode-hook 'my-term-mode-config)
 
+(global-set-key (kbd "M-RET") 'ansi-term)
+
+
 (provide 'init-terminal)
