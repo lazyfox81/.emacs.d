@@ -6,8 +6,8 @@
 ;; `http://ergoemacs.org/emacs/emacs_set_default_browser.html'
 
 ;; set specific browser to open links
-;; (setq browse-url-browser-functfion 'browse-url-firefox)
-(setq browse-url-browser-function 'eww-browse-url)
+(setq browse-url-browser-functfion 'browse-url-firefox)
+;; (setq browse-url-browser-function 'eww-browse-url)
 
 ;; Open new website in new buffer
 (when (fboundp 'eww)

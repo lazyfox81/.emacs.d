@@ -7,11 +7,13 @@
 
 (use-package sublime-themes
   :ensure t
-  :disabled t)
+  ;; :disabled t
+  )
 
 (use-package gruvbox-theme
   :ensure t
-  :disabled t)
+  :disabled t
+  )
 
 (load-theme 'spolsky t)
 ;; (load-theme 'xresources t)
