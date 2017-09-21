@@ -9,7 +9,7 @@
 ;; “default frame” is any new window emacs creates.
 
 (when (member "Terminess Powerline" (font-family-list))
-  (add-to-list 'initial-frame-alist '(font . "Terminess Powerline-10"))
-  (add-to-list 'default-frame-alist '(font . "Terminess Powerline-10")))
+  (add-to-list 'initial-frame-alist '(font . "Terminess Powerline-12"))
+  (add-to-list 'default-frame-alist '(font . "Terminess Powerline-12")))
 
 (provide 'init-fonts)

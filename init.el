@@ -22,6 +22,7 @@
 (require 'init-sudo-save)       ;; save as root
 (require 'init-key-bindings)    ;; custom keybinds
 (require 'init-bs)              ;; buffer show
+(require 'init-highlight)       ;; highlighting
 
 (require 'init-theme)           ;; color theme
 
