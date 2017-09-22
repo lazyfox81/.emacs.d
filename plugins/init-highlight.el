@@ -3,7 +3,8 @@
 
 (setq auto-mode-alist
       (append
-       '(("\\.h$"  . c++-mode)
+       '(("\\.Xresources$"  . conf-xdefaults-mode)
+         ("\Pkgfile$" . sh-mode)
          ("\\.txt$" . sh-mode))
        auto-mode-alist))
 
