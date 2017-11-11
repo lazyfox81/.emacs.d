@@ -18,7 +18,7 @@
 (load-theme 'spolsky t)
 ;; (load-theme 'xresources t)
 
-(let ((*background*         "#353945")
+(let ((*background*         "#2f343f")
       (*foreground*         "#d3dae3")
       (*color0*             "#454945")
       (*color1*             "#bf5b75")
