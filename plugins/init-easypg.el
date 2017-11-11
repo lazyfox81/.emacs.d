@@ -12,3 +12,5 @@
                          ;; instead gpg
 
 (provide 'init-easypg)
+
+(setenv "GPG_AGENT_INFO" nil)

@@ -7,7 +7,7 @@
 
 (use-package sublime-themes
   :ensure t
-  ;; :disabled t
+  :disabled t
   )
 
 (use-package gruvbox-theme
@@ -18,8 +18,8 @@
 (load-theme 'spolsky t)
 ;; (load-theme 'xresources t)
 
-(let ((*background*         "#282828")
-      (*foreground*         "#cccccc")
+(let ((*background*         "#353945")
+      (*foreground*         "#d3dae3")
       (*color0*             "#454945")
       (*color1*             "#bf5b75")
       (*color2*             "#9dc26d")
