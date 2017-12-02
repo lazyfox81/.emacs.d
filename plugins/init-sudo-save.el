@@ -8,3 +8,5 @@
     (write-file (concat "/sudo:root@localhost:" buffer-file-name))))
 
 (provide 'init-sudo-save)
+;;--------------------------------------------------------------------
+;; end of init-sudo-save.el

@@ -11,6 +11,8 @@
 (setq epa-armor t)       ;; create ASCII armored output by 'epa' command
                          ;; instead gpg
 
-(provide 'init-easypg)
-
 (setenv "GPG_AGENT_INFO" nil)
+
+(provide 'init-easypg)
+;;--------------------------------------------------------------------
+;; endo of init-easypg.el

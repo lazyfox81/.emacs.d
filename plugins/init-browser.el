@@ -30,3 +30,5 @@
 (global-set-key (kbd "<S-f7>") 'browse-url-firefox)
 
 (provide 'init-browser)
+;;--------------------------------------------------------------------
+;; end of init-browser.el

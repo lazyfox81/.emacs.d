@@ -17,3 +17,5 @@
   (add-to-list 'default-frame-alist '(font . "Roboto Mono for Powerline-10")))
 
 (provide 'init-fonts)
+;;--------------------------------------------------------------------
+;; end of init-fonts.el

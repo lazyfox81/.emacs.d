@@ -7,3 +7,5 @@
   (global-undo-tree-mode))
   
 (provide 'init-undo-tree)
+;;--------------------------------------------------------------------
+;; end of init-undo-tree.el

@@ -1,4 +1,3 @@
-
 ;; init-python.el
 ;; ---------------------------
 
@@ -22,3 +21,5 @@
 (add-hook 'python-mode-hook (lambda () (setq tab-width 4)))
 
 (provide 'init-python)
+;;--------------------------------------------------------------------
+;; end of init-python.el

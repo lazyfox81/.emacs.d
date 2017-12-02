@@ -7,3 +7,5 @@
       '(("all" nil nil nil nil nil)))
 
 (provide 'init-bs)
+;;--------------------------------------------------------------------
+;; end of init-bs.el

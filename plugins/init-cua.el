@@ -10,5 +10,5 @@
 
 (provide 'init-cua)
 ;;--------------------------------------------------------------------
-;; end of init-environment.el
+;; end of init-cua.el
 

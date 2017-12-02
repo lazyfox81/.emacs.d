@@ -14,3 +14,5 @@
 (global-set-key (kbd "<f12>") 'sr-speedbar-toggle)
 
 (provide 'init-sr-speedbar)
+;;--------------------------------------------------------------------
+;; end of init-sr-speedbar.el

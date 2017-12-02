@@ -16,3 +16,5 @@
   (lambda () (interactive) (find-alternate-file "..")))  ;; was dired-up-directory
 
 (provide 'init-dired)
+;;--------------------------------------------------------------------
+;; end of init-dired.el

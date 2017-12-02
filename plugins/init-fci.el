@@ -1,6 +1,6 @@
-
 ;; init-fci.el
 ;; ---------------------------
+
 ;; Fill-column indicator
 ;; https://www.emacswiki.org/emacs/FillColumnIndicator
 
@@ -15,4 +15,7 @@
 ;; (setq fci-rule-color "darkblue")
 (setq fci-rule-color "#333333")
 (setq fci-rule-column 80)
+
 (provide 'init-fci)
+;;--------------------------------------------------------------------
+;; end of init-fci.el

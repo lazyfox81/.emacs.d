@@ -8,3 +8,5 @@
 (setq linum-format "%4d")   ;; format of line numbers
 
 (provide 'init-linum)
+;;--------------------------------------------------------------------
+;; end of init-linum.el

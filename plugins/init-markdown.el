@@ -11,4 +11,5 @@
 (add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
 
 (provide 'init-markdown)
-
+;;--------------------------------------------------------------------
+;; end of init-markdown.el

@@ -272,6 +272,7 @@ Version 2016-01-08"
      ((equal 2 (get this-command 'state))
       (downcase-region ξp1 ξp2)
       (put this-command 'state 0)))))
-;;----------------------------------------------------------------------------
+
 (provide 'init-my-function)
+;;----------------------------------------------------------------------------
 ;; End of init-my-function.el

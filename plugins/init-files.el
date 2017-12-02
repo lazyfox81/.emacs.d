@@ -8,3 +8,5 @@
 (add-to-list 'magic-mode-alist '("# required by " . conf-mode))
 
 (provide 'init-files)
+;;--------------------------------------------------------------------
+;; end of init-files.el

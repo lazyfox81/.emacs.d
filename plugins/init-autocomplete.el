@@ -10,3 +10,5 @@
   (define-key ac-completing-map "\M-i" 'ac-previous))
 
 (provide 'init-autocomplete)
+;;--------------------------------------------------------------------
+;; end of init- autocomplete.el

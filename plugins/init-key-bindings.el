@@ -103,3 +103,5 @@
 (global-set-key (kbd "M-RET") 'ansi-term)
 
 (provide 'init-key-bindings)
+;;--------------------------------------------------------------------
+;; end of init-key-bindings.el
